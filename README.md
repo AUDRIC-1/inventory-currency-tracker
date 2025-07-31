@@ -23,6 +23,4 @@ This is a simple web app designed to help small businesses track inventory while
 - Export to Excel or PDF
 - Backend for saving data
 
----
 
-Let me know if you’d like help writing a final reflection or preparing it for submission!
