@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inventory & Currency Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Inventory & Currency Tracker</h1>
+
+  <form id="productForm">
+    <input type="text" id="name" placeholder="Product Name" required />
+    <input type="number" id="price" placeholder="Price (RWF)" required />
+    <input type="number" id="quantity" placeholder="Quantity" required />
+    <button type="submit">Add Product</button>
+  </form>
+
+  <div id="currency">
+    <label for="currencySelect">Convert to:</label>
+    <select id="currencySelect">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="KES">KES</option>
+    </select>
+    <button id="convertBtn">Convert Prices</button>
+  </div>
+
+  <table id="productTable">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Price (RWF)</th>
+        <th>Quantity</th>
+        <th>Total Value</th>
+        <th>Converted Price</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
